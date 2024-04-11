@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NopCommerce Suite">
+    <test name="Regression Tests">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.nopcommerce.tests.RegisterTest"/>
+            <class name="com.nopcommerce.tests.LoginTest"/>
+            <class name="com.nopcommerce.tests.OrderTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NopCommerce Suite">
+    <test name="Functional Tests">
+        <groups>
+            <run>
+                <include name="Functional"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.nopcommerce.tests.BaseTest"/>
+            <class name="com.nopcommerce.tests.RegisterTest"/>
+            <class name="com.nopcommerce.tests.LoginTest"/>
+            <class name="com.nopcommerce.tests.OrderTest"/>
+        </classes>
+    </test>
+</suite>
